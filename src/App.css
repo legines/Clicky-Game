@@ -1,0 +1,83 @@
+body {
+  background: url(/img/casinoBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0,0,0,.75);
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+
+.appHeader {
+  height: 130px;
+  padding: 20px 20px 0 20px;
+}
+
+/* .appHeader h1{
+  font-size: 16px;
+  font-weight: 300;
+} */
+
+.game h4{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cardsDiv{
+  height: 65vh;
+  padding: 20px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.diamonds:hover {
+  transition: transform .2s ease-in-out;
+  transform: scale(1.03,1.03);
+}
+
+.footy {
+  position: fixed;
+  bottom: 0;
+  left: 30px;
+}
+
+.footy a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footy h3 {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1340px) {
+  img.playingCard {
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  img.playingCard {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .appHeader {
+    height: 90px;
+  }
+  
+  .appHeader h1 {
+    font-size: 30px;
+  }
+
+  .game h4 {
+    font-size: 14px;
+  }
+}

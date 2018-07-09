@@ -5,7 +5,7 @@ const Header = () => {
   return(
     <header className="appHeader">
       <Animation in={true} duration={600} length={"30px"} direction={"bottom"}>
-        <h2>Clicky-Game!</h2>
+        <h1>Clicky-Game!</h1>
       </Animation>
     </header>
   )
