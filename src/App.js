@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Game from "./components/game/game";
-import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import './App.css';
+import Footer from "./components/footer/footer";
+import "./App.css";
 
 class App extends Component {
   render() {

@@ -5,7 +5,7 @@ const Footer = () => {
   return(
     <footer className="footy">
       <Animation delay={"1s"} duration={500} length={"20px"} direction={"top"}>
-        <a href="" target="_blank" rel="noopener noreferrer"><h3>hi</h3></a>
+        <a href="https://github.com/legines" target="_blank" rel="noopener noreferrer"><h3>Luis Gines 2018</h3></a>
       </Animation>
     </footer>
   )
